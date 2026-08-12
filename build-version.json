@@ -2,8 +2,8 @@
   "schema": "integ.life/build-version/v1",
   "repository": "integ-life/integ-chat",
   "service": "chat.integ.life",
-  "version": "git-7580f1b89f1e",
-  "commit": "7580f1b89f1e65a09246f81e6f41c043b98f33b8",
-  "builtAt": "2026-08-12T19:26:23.401Z",
+  "version": "git-78194c45131f",
+  "commit": "78194c45131f2853fae6530625ac51a066832345",
+  "builtAt": "2026-08-12T19:32:09.256Z",
   "dirty": false
 }
