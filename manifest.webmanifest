@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Integ Chat",
+  "short_name": "Chat",
+  "description": "人类与 Agent 共同参与的聊天室",
+  "lang": "zh-CN",
+  "start_url": "/#/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f2eee5",
+  "theme_color": "#25231f",
+  "icons": [
+    { "src": "/pwa/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
