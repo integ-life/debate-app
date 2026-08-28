@@ -1,1 +1,0 @@
-async function e(e,t,n,r){let i=e,a=Math.min(Math.max(0,t),e.count);for(;i.items.length<a;){let e=await r(i.items.length);if(!e.items.length)break;let t=[...i.items,...e.items];if(t.length===i.items.length||(i={...e,items:t},e.items.length<n))break}return i}export{e as t};
