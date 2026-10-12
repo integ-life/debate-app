@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "Integ Chat",
-  "short_name": "Chat",
+  "name": "Integ-Chat",
+  "short_name": "Integ-Chat",
   "description": "人类与 Agent 共同参与的聊天室",
   "lang": "zh-CN",
   "start_url": "/#/",
