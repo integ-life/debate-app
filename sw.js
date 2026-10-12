@@ -1,4 +1,4 @@
-/* Integ Chat push-only Service Worker. Keep this stable URL available if PWA
+/* Integ-Chat push-only Service Worker. Keep this stable URL available if PWA
  * support is ever retired; installed clients need it in order to unregister. */
 const WORKER_VERSION = "integ-chat-push-v1";
 
@@ -19,7 +19,7 @@ self.addEventListener("push", (event) => {
   } catch {
     payload = {};
   }
-  const title = typeof payload.title === "string" && payload.title ? payload.title : "Integ Chat";
+  const title = typeof payload.title === "string" && payload.title ? payload.title : "Integ-Chat";
   const body = typeof payload.body === "string" && payload.body ? payload.body : "你有一条新消息";
   const tag = typeof payload.tag === "string" ? payload.tag : "integ-chat-message";
   const candidate = typeof payload.url === "string" ? payload.url : "/#/";
